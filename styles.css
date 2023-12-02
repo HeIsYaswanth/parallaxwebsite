@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  min-height: 450px;
+  max-height: fit-content;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.85;
+  /* Span Positions */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image span {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 35px;
+  color: black;
+  backdrop-filter: blur(1.5px);
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#first-img {
+  background-image: url(1.jpg);
+}
+
+#second-img {
+  background-image: url(2.jpg);
+}
+
+#third-img {
+  background-image: url(3.jpg);
+}
+
+#fourth-img {
+  background-image: url(4.jpg);
+}
+
+#fifth-img {
+  background-image: url(5.jpg);
+}
+
+.header {
+  height: 30px;
+  background-color: #fdf7e4;
+}
+.content {
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: #b3b3b3;
+  font-family: sans-serif;
+}
+.content h2 {
+  letter-spacing: 3px;
+}
+
+.content p {
+  letter-spacing: 1px;
+}
+.fourth-content {
+  color: white;
+  background-color: #1c1c1c;
+  opacity: 0.9;
+}
+.footer {
+  text-align: center;
+  padding: 0.7rem 5rem;
+  color: white;
+  background-color: #1c1c1c;
+  opacity: 0.9;
+}
+.footer h2 {
+  letter-spacing: 3px;
+}
+
+.footer p {
+  letter-spacing: 1px;
+}
+
+.footer img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+/* Separators */
+
+.separator {
+  height: 5px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(76, 56, 98, 1) 0%,
+    rgba(58, 58, 75, 1) 50%,
+    rgba(93, 79, 108, 1) 97%
+  );
+}
+
+/* Navbar styles */
+
+.logo {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.navbar-content a {
+  color: white;
+}
+
+.navbar-content a:hover {
+  color: #b3b3b3;
+}
+.navbar {
+  background-color: #1c1c1c;
+  opacity: 0.9;
+}
